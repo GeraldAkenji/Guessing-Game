@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </head>
+    <div class="container bg-light p-5 rounded shadow-sm my-5">
+        <p>This is a Guessing Game. The username is "admin" and the password is "admin". This game is just for fun, and I am open to suggestions. Contact me at <a href="mailto:idrisniyi94@gmail.com">akenjigerald53@gmail.com</a>.</p>
+        <h2 class="text-center">Login</h2>
+        <form id="FormID-1" method="POST" action="#" class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" class="form-control my-2" placeholder="Enter username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-control my-2" placeholder="Enter password">
+            <button type="button" id="submitBtn" class="btn btn-primary btn-lg btn-block" onclick="onClick()">Login</button>
+        </form>
+    </div>
+    <footer class="text-center py-4">
+        <p>Thanks for visiting &copy; 2020</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-JZrw3P2BCvi6GvBejr6DAm+Pj6rN8G96vTJ17LtvVxFI3hX4D+ZVbz8IDxRzj0HX" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

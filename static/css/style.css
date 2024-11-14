@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+#bg{
+    position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	margin-top: -200px;
+    overflow: hidden;
+    background-image: url(images/img.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+nav a{
+    font-weight: bolder;
+    padding-right: 50px;
+}
+#container-1{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 80px 0;
+        height: 400px;
+        text-align: center;
+}
+h1,label{
+		font-size: 40px;
+		transition-duration: 1s;
+		font-weight: 200;
+
+}
+#FormID{
+    padding: 20px 0;
+	position: relative;
+	z-index: 2;
+	
+	
+}
+input[type=button]{
+
+		display: block;
+		
+		outline: 0;
+		border: 1px solid gray;
+		background-color: yellowgreen;
+		width: 250px;
+		
+		border-radius: 3px;
+		padding: 10px 15px;
+		margin: 0 auto 10px auto;
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		
+		color: white;
+		
+		transition-duration: 0.25s;
+		font-weight: 300;
+}
+input[type=text]{
+
+    display: block;
+    
+    outline: 0;
+    border: 1px solid gray;
+    background-color: rgb(201, 228, 51);
+    width: 250px;
+    
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    
+    color: white;
+    
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+#container-fluid{
+    padding: 50px;
+    position: relative;
+    
+}
+.section{
+    padding: 250px;
+    padding-top: 0px;
+    background-color: blanchedalmond;
+}
+#FormID-1{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    position: static;
+    background-color: cyan;
+}
+.header_2{
+    text-align: center;
+}
+#username, #password{
+    font-size: 30px;
+    color: aquamarine;
+    background-color: azure;
+    padding: inherit;
+    width: 450px;
+    margin: 20px;
+    display: unset;
+}
+#submitBtn{
+    color: grey;
+    background-color: azure;
+    position: unset;
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    #container-1{
+        margin: auto;
+        padding: 0px;
+    }
+    #bg{
+        background-image: inherit;
+    }
+    #FormID-1{
+        position: inherit;
+        padding: 0px;
+        margin: auto;
+        padding-top: 0px;
+    }
+    .header_2{
+        text-align: inherit;
+        padding: 0px;
+        margin: 0;
+        display: block;
+    }
+    #container-fluid{
+        margin: auto;
+        padding: 0px;
+        position: inherit;
+    }
+    .section{
+        margin: auto;
+        padding: 0px;
+    }
+    #username, #password{
+        width: auto;
+    }
+    .header_2{
+        text-align: center;
+    }
+  }
